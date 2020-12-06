@@ -7,7 +7,7 @@ Proje Vue ile geliştirilip Cordova'ya entegre edilmiştir. cmd ortamında ya da
 Projenin Cordova ile mobil ortamda çalışması için sanal bir cihaza ihtyiaç vardır.
 Android Studio üzerinden bir sanal cihaz ile çalıştırabilirsiniz.
 
-ÖNEMLİ: Eğer bilgisayarınızın dili Türkçe ve proje dosyanız masaüstünüzde ise "gradle.build" hatası alabilirsiniz.
+Not: Eğer bilgisayarınızın dili Türkçe ve proje dosyanız masaüstünüzde ise "gradle.build" hatası alabilirsiniz.
 Hatanın sebebi dosyanın bulunduğu url'de Türkçe karakter "Masaüstü" bulunmasından
 kaynaklı uygulamayı direkt Yerel Disk:C içerisinde çalıştırmanız tercih edilir.
 ```
