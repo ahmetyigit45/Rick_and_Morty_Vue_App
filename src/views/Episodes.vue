@@ -1,7 +1,7 @@
 <template>
-  <div class="Episodes" style="background:#24282f; height:100%">
+  <div class="Episodes" style="background:#FFFFFF; height:100%">
     <v-container fluid>
-      <v-card class="mx-auto wrapper-card" color="#385F73" dark>
+      <v-card class="mx-auto wrapper-card" color="primary" dark>
         <v-card-text>
           <div>{{ data.episode }}</div>
           <p class="display-3 text--primary text-wrapper">
@@ -14,7 +14,7 @@
           </p>
         </v-card-text>
 
-        <v-list style="background:#385F73; max-height: 300px;overflow: auto;">
+        <v-list color="primary" style="max-height: 300px;overflow: auto;">
           <v-list-item-group>
             <v-list-item
               v-for="(item, i) in data.characters"

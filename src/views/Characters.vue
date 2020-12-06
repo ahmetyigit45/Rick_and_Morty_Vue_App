@@ -1,7 +1,7 @@
 <template>
-  <div class="Characters" style="background:#24282f; height:100%">
+  <div class="Characters" style="background:#FFFFFF; height:100%">
     <v-container fluid>
-      <v-card class="mx-auto" color="#385F73" dark>
+      <v-card class="mx-auto" color="primary" dark>
         <v-row justify="space-around">
           <v-avatar size="200" style="margin-top:15px">
             <img :src="data.image" alt="John" />
@@ -34,7 +34,7 @@
           </v-card-text>
         </v-row>
 
-        <v-list style="background:#385F73; max-height: 300px; overflow: auto;">
+        <v-list color="primary" style="max-height: 300px; overflow: auto;">
           <v-list-item-group>
             <v-list-item
               v-for="(item, i) in data.episode"

@@ -1,10 +1,15 @@
 <template>
-  <div class="main-wrapper" style="background:#004D40; height:100%">
+  <div class="main-wrapper" style="background:#FFFFFF ; height:100%">
     <v-container fluid>
       <v-row>
         <!--  <v-col md="4"> -->
         <v-col md="4" v-for="(item, index) in data" :key="index">
-          <v-card class="mx-auto wrapper-card" color="#385F73" dark @click="goEpisodeDetail(item.url)">
+          <v-card
+            class="mx-auto wrapper-card"
+            color="primary"
+            dark
+            @click="goEpisodeDetail(item.url)"
+          >
             <v-card-text>
               <div>{{ item.episode }}</div>
               <p class="display-1 text--primary text-wrapper">
@@ -17,12 +22,12 @@
       </v-row>
       <v-row>
         <v-col class="text-center">
-          <v-btn class="mx-2" fab dark medium color="#385F73" @click="prev">
+          <v-btn class="mx-2" fab dark medium color="primary" @click="prev">
             <v-icon dark>
               mdi-arrow-left
             </v-icon>
           </v-btn>
-          <v-btn class="mx-2" fab dark medium color="#385F73" @click="next">
+          <v-btn class="mx-2" fab dark medium color="primary" @click="next">
             <v-icon dark>
               mdi-arrow-right
             </v-icon>
