@@ -1,4 +1,4 @@
-# rick-and-morty-project
+# Rick and Morty Vue App
 
 ### Açıklama
 ```
