@@ -9,7 +9,7 @@ Android Studio üzerinden bir sanal cihaz ile çalıştırabilirsiniz.
 
 ÖNEMLİ: Eğer bilgisayarınızın dili Türkçe ve proje dosyanız masaüstünüzde ise "gradle.build" hatası alabilirsiniz.
 Hatanın sebebi dosyanın bulunduğu url'de Türkçe karakter "Masaüstü" bulunmasından
-kaynaklı bu sebepten dolayı uygulamayı direkt Yerel Disk:C içerisinde çalıştırmanız tercih edilir.
+kaynaklı uygulamayı direkt Yerel Disk:C içerisinde çalıştırmanız tercih edilir.
 ```
 
 ## Proje için gerekli olan tüm eklentileri kurmak için
